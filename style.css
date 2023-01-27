@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.header {
+	background-color: #5b8fa5;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 100%;
+	height: 70px;
+}
+
+.header ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.header ul li {
+	list-style-type: none;
+}
+
+.header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	gap: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 17px;
+}
+
+.logo {
+	background: url("images/logo1.jpg");
+	width: 100%;
+	height: 478px;
+}
+
+.zwilling {
+	width: 440px;
+	height: 340px;
+}
+
+.nozeviZwilling {
+	text-align: center;
+	margin-top: 420px;
+}
+
+.displayBlock {
+	display: inline-block;
+	border: 3px solid #5b8fa5;
+	margin: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 23px;
+}
+
+.buyButton {
+	color: white;
+	background-color: #5b8fa5;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.oNama {
+	font-size: 35px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	margin-top: 800px;
+}
+
+.kontakt {
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 22px;
+	margin-top: 700px;
+	margin-bottom: 400px;
+}
